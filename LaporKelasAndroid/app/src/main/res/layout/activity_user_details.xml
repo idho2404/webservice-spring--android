@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/simple_background"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="DATA USER"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginTop="180dp"/>
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/darkblue"
+        android:background="@drawable/custome_border"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:textColor="@color/darkblue"
+        android:background="@drawable/custome_border"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvUserNim"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/darkblue"
+        android:background="@drawable/custome_border"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvUserKelas"
+        android:textColor="@color/darkblue"
+        android:background="@drawable/custome_border"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnDeleteUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:background="@drawable/custom_button"
+        android:text="Hapus User" />
+
+</LinearLayout>

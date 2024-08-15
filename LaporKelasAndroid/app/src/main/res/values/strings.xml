@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LaporKelas</string>
+    <string name="editButtonText">Edit</string>
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="kelas">Kelas</string>
+    <string name="password">Password</string>
+    <string name="nim">NIM</string>
+    <string name="new_password">Password Baru</string>
+    <string name="validateEmail">Email Sekarang</string>
+    <string name="validatePassword">Password Sekarang</string>
+    <string name="updateProfile">Update Profile</string>
+    <string name="allUser">Lihat Semua User</string>
+</resources>

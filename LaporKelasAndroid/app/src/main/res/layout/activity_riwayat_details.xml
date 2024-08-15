@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/simple_background"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="DETAIL RIWAYAT"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:textColor="@color/orange"
+    android:textStyle="bold"
+    android:textSize="40dp"
+    android:layout_marginTop="120dp"/>
+
+    <!-- Detail TextViews with a similar style as the first layout -->
+    <TextView
+    android:id="@+id/tvReporterName"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:textColor="@color/darkblue"
+    android:background="@drawable/custome_border"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+    android:id="@+id/tvNim"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/darkblue"
+    android:background="@drawable/custome_border"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+    android:id="@+id/tvReportDate"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/darkblue"
+    android:background="@drawable/custome_border"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+    android:id="@+id/tvReportedClass"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/darkblue"
+    android:background="@drawable/custome_border"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+    android:id="@+id/tvStatus"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/darkblue"
+    android:background="@drawable/custome_border"
+    android:textSize="18sp"
+    android:layout_marginBottom="32dp" />
+
+    <!-- Button with a style similar to the first layout -->
+    <Button
+    android:id="@+id/btnDelete"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/orange"
+    android:background="@drawable/custom_button"
+    android:text="Hapus Riwayat" />
+ </LinearLayout>

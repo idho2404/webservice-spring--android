@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/edit_text_background">
+
+    <!-- Each row has a horizontal LinearLayout with two TextViews -->
+
+    <!-- Row for Kelas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kelasTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@color/darkblue"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Row for Proyektor -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/proyektorLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Proyektor"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/proyektorTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@color/orange"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Row for Kursi -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kursiLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kursi"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/kursiTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@color/orange"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Row for Papan -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/papanLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Papan"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/papanTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@color/orange"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Row for Spidol -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/spidolLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Spidol"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/spidolTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@color/orange"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Row for Penghapus -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/penghapusLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Penghapus"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/penghapusTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@color/orange"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Row for AC -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/acLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AC"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/acTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@color/orange"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Row for Jam Dinding -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/jamDindingLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Jam Dinding"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/jamDindingTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@color/orange"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Row for Lainnya -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lainnyaLabelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lainnya"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/lainnyaTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@color/orange"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

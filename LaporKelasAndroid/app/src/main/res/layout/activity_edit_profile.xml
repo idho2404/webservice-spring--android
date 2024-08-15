@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/simple_background">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Masukkan Yang Hanya Ingin Di Edit"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/name"
+            android:textColorHint="@color/darkblue"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/darkblue"
+            android:padding="10dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/email"
+            android:textColorHint="@color/darkblue"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/darkblue"
+            android:padding="10dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextNim"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/nim"
+            android:textColorHint="@color/darkblue"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/darkblue"
+            android:padding="10dp"
+            android:inputType="text|number" />
+
+        <EditText
+            android:id="@+id/editTextKelas"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/kelas"
+            android:textColorHint="@color/darkblue"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/darkblue"
+            android:padding="10dp"
+            android:inputType="textCapCharacters" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/new_password"
+            android:textColorHint="@color/darkblue"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/darkblue"
+            android:padding="10dp"
+            android:inputType="text"/><!-- Add margin at the bottom -->
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" /> <!-- Add some space -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Masukkan Email dan Password Saat Ini"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/editTextEmailValidation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/email"
+            android:textColorHint="@color/darkblue"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/darkblue"
+            android:padding="10dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPasswordValidation"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/validatePassword"
+            android:textColorHint="@color/darkblue"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/darkblue"
+            android:padding="10dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonUpdateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/updateProfile"
+            android:backgroundTint="@color/blacksmooth"
+            android:background="@drawable/custome_border"/>
+
+    </LinearLayout>
+</ScrollView>

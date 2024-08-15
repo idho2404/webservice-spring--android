@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/custome_border"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+    android:id="@+id/reporterNameTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:textSize="16sp"
+    android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+        android:background="@drawable/custome_border"
+    android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/nimTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/darkblue"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <!-- ... other TextViews ... -->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/reportDateTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@color/darkblue"
+        android:textSize="14sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/reportedClassTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@color/darkblue"
+        android:textSize="14sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@color/darkblue"
+        android:textSize="14sp"
+        android:padding="8dp"/>
+    <!-- TextViews inside this LinearLayout -->
+
+    </LinearLayout>
+</LinearLayout>

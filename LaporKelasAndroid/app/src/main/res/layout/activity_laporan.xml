@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/simple_background"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/backImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"/>
+
+    <!-- Horizontal LinearLayout for the EditText and the Search Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/kelasEditText"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:hint="kelas"
+            android:textAlignment="center"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Search"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/blacksmooth"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Buat Laporan Button -->
+    <Button
+        android:id="@+id/buatLaporanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buat Laporan"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- RecyclerView for the list of reports -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewLaporan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
